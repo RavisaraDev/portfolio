@@ -136,11 +136,12 @@ class App extends React.Component {
                         <div>
                             <h4>RAVISARA</h4>
                             <p>
-                                Hi, I'm a UI/UX Designer & Frontend developer based in
-                                Colombo, Sri Lanka but i'm originally from galle. Turning complex
-                                problems into simple and make product user friendly is the end gole. When i'm not working most of the time
-                                passionate about travel & spend my time playing games. you can
-                                find my portfolio below or just <a className="sendMail" href="mailto:ravisara.dev@gmail.com">drop me a mail</a>
+                                Hi, I'm a Frontend Developer/UI/UX Designer based in
+                                Colombo, Sri Lanka who begins the journey as a freelance designer nearly 3 years ago
+                                and inspired by the community, Most of the time I used to design and build digital products,
+                                UIs while maintaining good and clean codebase. Mainly passionate about mobile development and
+                                working on improving my experience as a mobile developer. you can find my portfolio below or
+                                <a className="sendMail" href="mailto:ravisara.dev@gmail.com"> just drop me an email</a>
                             </p>
                         </div>
                         <Social>
