@@ -1,0 +1,11 @@
+html {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: rgb(28, 28, 32);
+  color: beige;
+  margin: 0;
+  padding: 0;
+}
