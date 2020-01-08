@@ -25,7 +25,7 @@ const LogoBar = styled.div`
 
   img {
     margin: auto;
-    width: 7%;
+    width: 10%;
   }
 `;
 
@@ -45,12 +45,30 @@ const Content = styled.div`
     font-weight: 400;
     margin: auto;
   }
-
+  
   .sendMail{
     color: white;
     font-weight: 800;
     text-decoration: none;
-    transition: all 0.5s ease;
+    -webkit-animation: shine 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: shine 5s infinite;
+    transition: all .5s ease;
+  }
+  
+  @-webkit-keyframes shine {
+      0%   {text-shadow: 0px 0px 12px #fff;}
+      25%   {text-shadow: 0px 0px 12px #ffffff00;}
+      50%   {text-shadow: 0px 0px 12px #fff;}
+      90%   {text-shadow: 0px 0px 12px #ffffff00;}
+      100%   {text-shadow: 0px 0px 12px #fff;}
+  }
+  
+    @keyframes shine {
+      0%   {text-shadow: 0px 0px 12px #fff;}
+      25%   {text-shadow: 0px 0px 12px #ffffff00;}
+      50%   {text-shadow: 0px 0px 12px #fff;}
+      90%   {text-shadow: 0px 0px 12px #ffffff00;}
+      100%   {text-shadow: 0px 0px 12px #fff;}
   }
 
   .sendMail:hover {
@@ -119,10 +137,10 @@ class App extends React.Component {
                             <h4>RAVISARA</h4>
                             <p>
                                 Hi, I'm a UI/UX Designer & Frontend developer based in
-                                Colombo, Sri Lanka. my home-town is Galle. turning complex
-                                problems into simple. When i'm not working most of the time
+                                Colombo, Sri Lanka but i'm originally from galle. Turning complex
+                                problems into simple and make product user friendly is the end gole. When i'm not working most of the time
                                 passionate about travel & spend my time playing games. you can
-                                find me and my portfolio by following below links. or <a className="sendMail" href="mailto:ravisara.dev@gmail.com">Mail me</a>
+                                find my portfolio below or just <a className="sendMail" href="mailto:ravisara.dev@gmail.com">drop me a mail</a>
                             </p>
                         </div>
                         <Social>
