@@ -29,6 +29,12 @@ const LogoBar = styled.div`
   }
 `;
 
+const TitleBar = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
 const Content = styled.div`
   max-width: 80%;
   text-align: center;
@@ -36,6 +42,10 @@ const Content = styled.div`
 
   h4 {
     letter-spacing: 5px;
+  }
+  
+  .highlight{
+    color: #26c281;
   }
 
   p {
@@ -130,11 +140,15 @@ class App extends React.Component {
             <Page>
                 <Wrapper>
                     <Content>
-                        <LogoBar>
-                            <img alt="logo" src={Logo} />
-                        </LogoBar>
+                        {/*<LogoBar>*/}
+                        {/*    <img alt="logo" src={Logo} />*/}
+                        {/*</LogoBar>*/}
                         <div>
-                            <h4>RAVISARA</h4>
+                            <TitleBar>
+                                <h4>RAVISARA</h4>
+                                <h4 className="highlight">DEV</h4>
+                            </TitleBar>
+
                             <p>
                                 Hi, I'm a UI/UX Designer & Frontend developer based in
                                 Colombo, Sri Lanka but i'm originally from galle. Turning complex
