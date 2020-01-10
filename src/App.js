@@ -3,12 +3,7 @@ import styled from "styled-components";
 import {NavBar} from "./components/NavBar";
 import {MouseScroller} from './components/MouseScroller'
 
-const Wrapper = styled.div`
-    
-`;
-
 const Container = styled.div`
-    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,6 +14,19 @@ const Container = styled.div`
 
 const Content = styled.div`
     text-align: center;
+    margin-top: 60px;
+`;
+
+const Description = styled.p`
+    padding: 0 45px;
+    text-align: center;
+    max-width: 51rem;
+    line-height: 30px;
+    opacity: .5;
+    
+    @media screen and (max-width: 500px) {
+        padding: 0 35px;
+    }
 `;
 
 const FadeTitle = styled.h1`
@@ -46,8 +54,15 @@ function App() {
             <Container>
                 <NavBar/>
                 <Content>
-                    <FadeTitle>Hello!</FadeTitle>
+                    <FadeTitle>Hi!</FadeTitle>
                 </Content>
+                <Description>
+                    I'm a Frontend Developer and a UI/UX Designer based in Colombo, Sri Lanka who begins the journey as a
+                    freelance designer nearly 3 years ago and inspired by the community, Most of the time I used to
+                    design and build digital products, UIs while maintaining good and clean codebase. Mainly passionate
+                    about mobile development and working on improving my experience as a mobile developer. you can find
+                    my portfolio below or just drop me an email
+                </Description>
             </Container>
             <MouseScroller/>
         </>
