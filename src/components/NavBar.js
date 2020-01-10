@@ -42,17 +42,15 @@ const TopBar = styled.div`
     }
 `;
 
-export class NavBar extends React.Component {
-    render() {
-        return (
-            <>
-                <TopBar>
-                    <div className="navbar-content">
-                        <span className="logo">ravisaradev</span>
-                        <a className="sendMail" href="mailto:ravisara.dev@gmail.com"><span className="logo">Mail</span></a>
-                    </div>
-                </TopBar>
-            </>
-        );
-    }
+export function NavBar() {
+    return (
+        <>
+            <TopBar>
+                <div className="navbar-content">
+                    <span className="logo">ravisaradev</span>
+                    <a className="sendMail" href="mailto:ravisara.dev@gmail.com"><span className="logo">Mail</span></a>
+                </div>
+            </TopBar>
+        </>
+    );
 }

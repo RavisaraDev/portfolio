@@ -50,78 +50,76 @@ const Social = styled.div`
   }
 `;
 
-export class SocialLinks extends React.Component {
-    render() {
-        return (
-            <Social>
-                <ul class="social-menu">
-                    <li>
-                        <a
-                            rel="noopener noreferrer"
-                            href="https://www.instagram.com/ravisaradev/"
-                            target="_blank"
-                        >
-                            <i class="fab fa-instagram"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noopener noreferrer"
-                            href="https://twitter.com/ravisaradev"
-                            target="_blank"
-                        >
-                            <i class="fab fa-twitter"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noopener noreferrer"
-                            href="https://www.linkedin.com/in/nipunravisara/"
-                            target="_blank"
-                        >
-                            <i class="fab fa-linkedin-in"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noopener noreferrer"
-                            href="https://github.com/RavisaraDev"
-                            target="_blank"
-                        >
-                            <i class="fab fa-github"/>
-                        </a>
-                    </li>
+export function SocialLinks() {
+    return (
+        <Social>
+            <ul class="social-menu">
+                <li>
+                    <a
+                        rel="noopener noreferrer"
+                        href="https://www.instagram.com/ravisaradev/"
+                        target="_blank"
+                    >
+                        <i class="fab fa-instagram"/>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        rel="noopener noreferrer"
+                        href="https://twitter.com/ravisaradev"
+                        target="_blank"
+                    >
+                        <i class="fab fa-twitter"/>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        rel="noopener noreferrer"
+                        href="https://www.linkedin.com/in/nipunravisara/"
+                        target="_blank"
+                    >
+                        <i class="fab fa-linkedin-in"/>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        rel="noopener noreferrer"
+                        href="https://github.com/RavisaraDev"
+                        target="_blank"
+                    >
+                        <i class="fab fa-github"/>
+                    </a>
+                </li>
 
-                    <li>
-                        <a
-                            rel="noopener noreferrer"
-                            href="https://codepen.io/ravisaradev"
-                            target="_blank">
-                            <i class="fab fa-codepen"/>
-                        </a>
-                    </li>
+                <li>
+                    <a
+                        rel="noopener noreferrer"
+                        href="https://codepen.io/ravisaradev"
+                        target="_blank">
+                        <i class="fab fa-codepen"/>
+                    </a>
+                </li>
 
-                    <li>
-                        <a
-                            rel="noopener noreferrer"
-                            href="https://www.behance.net/Nipun_Ravisara"
-                            target="_blank"
-                        >
-                            <i class="fab fa-behance"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noopener noreferrer"
-                            href="https://dribbble.com/Ravisaradev"
-                            target="_blank"
-                        >
-                            <i class="fab fa-dribbble"/>
-                        </a>
-                    </li>
-                </ul>
-                <div/>
-            </Social>
-        );
-    }
+                <li>
+                    <a
+                        rel="noopener noreferrer"
+                        href="https://www.behance.net/Nipun_Ravisara"
+                        target="_blank"
+                    >
+                        <i class="fab fa-behance"/>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        rel="noopener noreferrer"
+                        href="https://dribbble.com/Ravisaradev"
+                        target="_blank"
+                    >
+                        <i class="fab fa-dribbble"/>
+                    </a>
+                </li>
+            </ul>
+            <div/>
+        </Social>
+    );
 }

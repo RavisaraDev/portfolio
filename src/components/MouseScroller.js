@@ -39,14 +39,12 @@ const Mouse = styled.div`
         }
 `;
 
-export class MouseScroller extends React.Component {
-    render() {
-        return (
-            <Mouse>
-                <div className="mouse">
-                    <div className="scroller"/>
-                </div>
-            </Mouse>
-        );
-    }
+export function MouseScroller() {
+    return (
+        <Mouse>
+            <div className="mouse">
+                <div className="scroller"/>
+            </div>
+        </Mouse>
+    );
 }

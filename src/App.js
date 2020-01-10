@@ -1,17 +1,20 @@
 import React from "react";
 import styled from "styled-components";
-import { NavBar } from "./components/NavBar";
-import  { MouseScroller } from './components/MouseScroller'
-import { SocialLinks } from "./components/SocialLinks";
+import {NavBar} from "./components/NavBar";
+import {MouseScroller} from './components/MouseScroller'
 
 const Wrapper = styled.div`
-    color: white;
-    line-height: 21px;
-    height: 100vh;
+    
+`;
+
+const Container = styled.div`
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: white;
+    line-height: 21px;
 `;
 
 const Content = styled.div`
@@ -37,19 +40,18 @@ const FadeTitle = styled.h1`
     }
 `;
 
-class App extends React.Component {
-    render() {
-        return (
-            <Wrapper>
+function App() {
+    return (
+        <>
+            <Container>
                 <NavBar/>
                 <Content>
                     <FadeTitle>Hello!</FadeTitle>
                 </Content>
-                <MouseScroller/>
-                {/*<small>Made with lots of coffee in sri lanka</small>*/}
-            </Wrapper>
-        );
-    }
+            </Container>
+            <MouseScroller/>
+        </>
+    );
 }
 
 export default App;
