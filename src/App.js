@@ -30,8 +30,8 @@ const FadeTitle = styled.h1`
     }
     
     @media screen and (max-width: 500px) {
-        font-size: 3rem;
-        padding: 9px 0;
+        font-size: 4rem;
+        padding: 16px 0;
     }
 `;
 
