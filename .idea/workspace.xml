@@ -65,7 +65,7 @@
       <workItem from="1578542490199" duration="584000" />
       <workItem from="1578630210823" duration="1353000" />
       <workItem from="1578631685795" duration="10995000" />
-      <workItem from="1578652287251" duration="1555000" />
+      <workItem from="1578652287251" duration="1815000" />
     </task>
     <task id="LOCAL-00001" summary="Mobile responsive sizes 📱️">
       <created>1578655867304</created>
@@ -74,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578655867304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mobile responsive sizes 📱️v2">
+      <created>1578656348308</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578656348308</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,21 +89,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mobile responsive sizes ️" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobile responsive sizes ️" />
+    <MESSAGE value="Mobile responsive sizes ️v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile responsive sizes ️v2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="576" y="75" width="763" height="975" key="CommitChangelistDialog2" timestamp="1578655867164">
+    <state x="576" y="73" width="763" height="975" key="CommitChangelistDialog2" timestamp="1578656348222">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="576" y="75" width="763" height="975" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1578655867164" />
+    <state x="576" y="73" width="763" height="975" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1578656348222" />
     <state x="467" y="189" width="986" height="735" key="SettingsEditor" timestamp="1578632079798">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="467" y="189" width="986" height="735" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1578632079798" />
-    <state x="558" y="281" width="800" height="562" key="Vcs.Push.Dialog.v2" timestamp="1578655869879">
+    <state x="558" y="279" width="800" height="562" key="Vcs.Push.Dialog.v2" timestamp="1578656350042">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="558" y="281" width="800" height="562" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1578655869879" />
+    <state x="558" y="279" width="800" height="562" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1578656350042" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1578638041419">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

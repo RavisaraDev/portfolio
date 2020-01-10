@@ -10,6 +10,10 @@ const TopBar = styled.div`
     margin: auto;   
     width: 100%;
     
+    @media screen and (max-width: 500px) {
+        padding: 20px 0;
+    }
+    
     a{
         text-decoration: none;
     }
