@@ -7,7 +7,7 @@ const TopBar = styled.div`
     position: fixed;
     top: 0;
     left: 0;
-    margin: auto;
+    margin: auto;   
     width: 100%;
     
     a{
@@ -18,7 +18,13 @@ const TopBar = styled.div`
         padding: 0 70px;
         display: flex;
         justify-content: space-between;
-  }
+        
+         @media screen and (max-width: 500px) {
+            padding: 0 31px;
+        }
+    }
+    
+    
     
     .logo{
         color: #ffffff;

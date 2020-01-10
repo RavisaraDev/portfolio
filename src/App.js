@@ -23,6 +23,16 @@ const FadeTitle = styled.h1`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
+    
+    @media screen and (max-width: 992px) {
+        font-size: 5rem;
+        padding: 22px 0;
+    }
+    
+    @media screen and (max-width: 500px) {
+        font-size: 3rem;
+        padding: 9px 0;
+    }
 `;
 
 const Social = styled.div`
