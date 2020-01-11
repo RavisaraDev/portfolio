@@ -9,6 +9,7 @@ const TopBar = styled.div`
     left: 0;
     margin: auto;   
     width: 100%;
+    z-index: 1;
     
     @media screen and (max-width: 500px) {
         padding: 20px 0;
@@ -38,6 +39,7 @@ const TopBar = styled.div`
         
         @media screen and (max-width: 500px) {
             font-size: .8rem;
+            letter-spacing: 2px;
         }
     }
 `;

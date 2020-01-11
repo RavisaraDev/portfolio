@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0c80fd4f-37a5-4a9b-92ac-55a67a87f9d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/MouseScroller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/MouseScroller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/NavBar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,8 @@
       <workItem from="1578661413007" duration="2231000" />
       <workItem from="1578666353150" duration="16000" />
       <workItem from="1578666400305" duration="16000" />
-      <workItem from="1578666477703" duration="7673000" />
+      <workItem from="1578666477703" duration="7690000" />
+      <workItem from="1578708864305" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="Mobile responsive sizes 📱️">
       <created>1578655867304</created>
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578671897469</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Mouse scroller animation with new layout">
+      <created>1578677526603</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578677526603</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,18 +129,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Mouse scroller animation with new layout" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="576" y="67" width="763" height="975" key="CommitChangelistDialog2" timestamp="1578671897406">
+    <state x="576" y="65" width="763" height="975" key="CommitChangelistDialog2" timestamp="1578677526533">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="576" y="67" width="763" height="975" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1578671897406" />
+    <state x="576" y="65" width="763" height="975" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1578677526533" />
     <state x="467" y="189" width="986" height="735" key="SettingsEditor" timestamp="1578632079798">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="467" y="189" width="986" height="735" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1578632079798" />
-    <state x="558" y="273" width="800" height="562" key="Vcs.Push.Dialog.v2" timestamp="1578671899271">
+    <state x="558" y="271" width="800" height="562" key="Vcs.Push.Dialog.v2" timestamp="1578677528857">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="558" y="273" width="800" height="562" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1578671899271" />
+    <state x="558" y="271" width="800" height="562" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1578677528857" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1578638041419">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
