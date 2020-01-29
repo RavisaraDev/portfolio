@@ -3,6 +3,14 @@ import styled from "styled-components";
 import {NavBar} from "./components/NavBar";
 import {MouseScroller} from './components/MouseScroller'
 
+const Wrapper = styled.div`
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+`;
+
 const Container = styled.div`
     display: flex;
     align-items: center;
@@ -50,11 +58,11 @@ const FadeTitle = styled.h1`
 
 function App() {
     return (
-        <>
+        <Wrapper>
             <Container>
                 <NavBar/>
                 <Content>
-                    <FadeTitle>Hi!</FadeTitle>
+                    <FadeTitle>Hi!, welcome</FadeTitle>
                 </Content>
                 <Description>
                     I'm a Frontend Developer and a UI/UX Designer based in Colombo, Sri Lanka who begins the journey as a
@@ -65,7 +73,7 @@ function App() {
                 </Description>
             </Container>
             <MouseScroller/>
-        </>
+        </Wrapper>
     );
 }
 

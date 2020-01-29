@@ -5,7 +5,7 @@ const Mouse = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 15px 0px;
+    margin: 100px 0px;
     
      .mouse {
           border: 1px solid #ffff;
