@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c80fd4f-37a5-4a9b-92ac-55a67a87f9d0" name="Default Changelist" comment="">
+    <list default="true" id="0c80fd4f-37a5-4a9b-92ac-55a67a87f9d0" name="Default Changelist" comment="Home responsive fixes 👨‍💻️">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/MouseScroller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/MouseScroller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +32,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.eslintrc.js" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="com.eslint.settings.ESLintSettingsPage" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -73,7 +77,9 @@
       <workItem from="1578666477703" duration="7690000" />
       <workItem from="1578708864305" duration="756000" />
       <workItem from="1578969893585" duration="59000" />
-      <workItem from="1580265423168" duration="1030000" />
+      <workItem from="1580265423168" duration="1378000" />
+      <workItem from="1582433330001" duration="921000" />
+      <workItem from="1582434272969" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="Mobile responsive sizes 📱️">
       <created>1578655867304</created>
@@ -117,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578677526603</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New layout with title 🕶️">
+      <created>1580266676148</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580266676148</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,21 +142,27 @@
     <MESSAGE value="Mobile responsive sizes ️v3" />
     <MESSAGE value="Mouse scroller animation ️" />
     <MESSAGE value="Mouse scroller animation with new layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mouse scroller animation with new layout" />
+    <MESSAGE value="New layout with title ️" />
+    <MESSAGE value="Home responsive fixes ‍️" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home responsive fixes ‍️" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="576" y="63" width="763" height="975" key="CommitChangelistDialog2" timestamp="1578710014137">
+    <state x="576" y="57" width="763" height="975" key="CommitChangelistDialog2" timestamp="1582434359090">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="576" y="63" width="763" height="975" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1578710014137" />
-    <state x="467" y="189" width="986" height="735" key="SettingsEditor" timestamp="1578632079798">
+    <state x="576" y="57" width="763" height="975" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1582434359090" />
+    <state x="746" y="318" width="424" height="489" key="FileChooserDialogImpl" timestamp="1582434247370">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="467" y="189" width="986" height="735" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1578632079798" />
-    <state x="558" y="269" width="800" height="562" key="Vcs.Push.Dialog.v2" timestamp="1578710015990">
+    <state x="746" y="318" width="424" height="489" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1582434247370" />
+    <state x="467" y="187" width="986" height="735" key="SettingsEditor" timestamp="1582434249892">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="558" y="269" width="800" height="562" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1578710015990" />
+    <state x="467" y="187" width="986" height="735" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1582434249892" />
+    <state x="558" y="267" width="800" height="562" key="Vcs.Push.Dialog.v2" timestamp="1580266678429">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="558" y="267" width="800" height="562" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1580266678429" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1578638041419">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

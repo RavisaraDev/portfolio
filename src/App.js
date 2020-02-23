@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import {NavBar} from "./components/NavBar";
-import {MouseScroller} from './components/MouseScroller'
+import React from 'react';
+import styled from 'styled-components';
+import { NavBar } from './components/NavBar';
+import { MouseScroller } from './components/MouseScroller';
 
 const Wrapper = styled.div`
     height: 100vh;
@@ -9,6 +9,12 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
+    @media only screen and (max-width: 900px) {
+   {
+        height: auto;
+  }
+}
 `;
 
 const Container = styled.div`
@@ -47,6 +53,7 @@ const FadeTitle = styled.h1`
     
     @media screen and (max-width: 992px) {
         font-size: 5rem;
+        line-height: 1.5;
         padding: 22px 0;
     }
     
@@ -57,24 +64,24 @@ const FadeTitle = styled.h1`
 `;
 
 function App() {
-    return (
-        <Wrapper>
-            <Container>
-                <NavBar/>
-                <Content>
-                    <FadeTitle>Hi!, welcome</FadeTitle>
-                </Content>
-                <Description>
-                    I'm a Frontend Developer and a UI/UX Designer based in Colombo, Sri Lanka who begins the journey as a
-                    freelance designer nearly 3 years ago and inspired by the community, Most of the time I used to
-                    design and build digital products, UIs while maintaining good and clean codebase. Mainly passionate
-                    about mobile development and working on improving my experience as a mobile developer. you can find
-                    my portfolio below or just drop me an email
-                </Description>
-            </Container>
-            <MouseScroller/>
-        </Wrapper>
-    );
+  return (
+    <Wrapper>
+      <Container>
+        <NavBar />
+        <Content>
+          <FadeTitle>Hi!, welcome</FadeTitle>
+        </Content>
+        <Description>
+          I'm a Frontend Developer and a UI/UX Designer based in Colombo, Sri Lanka who begins the journey as a
+          freelance designer nearly 3 years ago and inspired by the community, Most of the time I used to
+          design and build digital products, UIs while maintaining good and clean codebase. Mainly passionate
+          about mobile development and working on improving my experience as a mobile developer. you can find
+          my portfolio below or just drop me an email
+        </Description>
+      </Container>
+      <MouseScroller />
+    </Wrapper>
+  );
 }
 
 export default App;
