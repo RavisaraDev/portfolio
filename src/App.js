@@ -31,15 +31,17 @@ const Content = styled.div`
     margin-top: 60px;
 `;
 
-const Description = styled.p`
-    padding: 0 45px;
+const Description = styled.div`
+    margin-left: 14px;
+    margin-right: 25px;
     text-align: center;
     max-width: 51rem;
     line-height: 30px;
     opacity: .5;
     
     @media screen and (max-width: 500px) {
-        padding: 0 35px;
+      margin-left: 14px;
+      margin-right: 25px;
     }
 `;
 
@@ -72,11 +74,13 @@ function App() {
           <FadeTitle>Hi!, welcome</FadeTitle>
         </Content>
         <Description>
-          I'm a Frontend Developer and a UI/UX Designer based in Colombo, Sri Lanka who begins the journey as a
-          freelance designer nearly 3 years ago and inspired by the community, Most of the time I used to
-          design and build digital products, UIs while maintaining good and clean codebase. Mainly passionate
-          about mobile development and working on improving my experience as a mobile developer. you can find
-          my portfolio below or just drop me an email
+          <p>
+            I'm a Frontend Developer and a UI/UX Designer based in Colombo, Sri Lanka who begins the journey as a
+            freelance designer nearly 3 years ago and inspired by the community, Most of the time I used to
+            design and build digital products, UIs while maintaining good and clean codebase. Mainly passionate
+            about mobile development and working on improving my experience as a mobile developer. you can find
+            my portfolio below or just drop me an email.
+          </p>
         </Description>
       </Container>
       <MouseScroller />
