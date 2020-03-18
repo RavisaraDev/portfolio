@@ -74,10 +74,12 @@ function App() {
         </Content>
         <Description>
           <p>
+            {/* eslint-disable-next-line max-len */}
             I am a Developer and a UI/UX Designer based in Colombo,Sri Lanka who begins the journey as a
+            {/* eslint-disable-next-line max-len */}
             freelance designer nearly 3 years ago and inspired by the community, Most of the time I used to
             build digital products while maintaining good and clean codebase. Mainly passionate
-            about mobile development and working on improving my experience as a Fullstack developer. you can find
+            about mobile development and working on improving my experience as a fullstack developer. you can find
             my portfolio below or just drop me an email.
           </p>
         </Description>
