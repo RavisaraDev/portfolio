@@ -41,16 +41,12 @@ const Content = styled.div`
   
 
   h4 {
-    letter-spacing: 5px;
-  }
-  
-  .highlight{
-    color: #26c281;
+    font-size: 2rem;
   }
 
   p {
-    max-width: 660px;
-    font-size: 0.95rem;
+    max-width: 770px;
+    font-size: 1rem;
     line-height: 1.6;
     font-weight: 400;
     margin: auto;
@@ -145,39 +141,39 @@ class App extends React.Component {
                         {/*</LogoBar>*/}
                         <div>
                             <TitleBar>
-                                <h4>RAVISARA</h4>
-                                <h4 className="highlight">DEV</h4>
+                                <h4>Hi!👋 I'm Nipun</h4>
                             </TitleBar>
 
                             <p>
-                                Hi, I'm a Frontend Developer/UI/UX Designer based in
-                                Colombo, Sri Lanka who begins the journey as a freelance designer nearly 3 years ago
-                                and inspired by the community, Most of the time I used to design and build digital products,
-                                UIs while maintaining good and clean codebase. Mainly passionate about mobile development and
-                                working on improving my experience as a mobile developer. you can find my portfolio below or
-                                <a className="sendMail" href="mailto:ravisara.dev@gmail.com"> just drop me an email</a>
+                                Full-stack developer/Designer 👨‍💻 based in
+                                Colombo, Sri Lanka who begins the journey as a freelance designer nearly 3 years ago 📅
+                                and inspired by the community Most of the time I used to design and build mobile apps 📱, digital products,
+                                UIs while maintaining good and clean codebase 🧪. Mainly passionate about mobile application development and
+                                working on improving my experience as a mobile developer. you can find my portfolio below 👇 or
+                                <a className="sendMail" href="mailto:ravisara.dev@gmail.com"> just drop me an email. 📨</a> Btw I'm working <a className="sendMail" target="_blank" href="http://emmito.com/">@emmito.</a>
                             </p>
                         </div>
                         <Social>
                             <ul class="social-menu">
-                                <li>
+                            <li>
                                     <a
                                         rel="noopener noreferrer"
-                                        href="https://www.instagram.com/ravisaradev/"
+                                        href="https://github.com/nipunravisara"
                                         target="_blank"
                                     >
-                                        <i class="fab fa-instagram" />
+                                        <i class="fab fa-github"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a
                                         rel="noopener noreferrer"
-                                        href="https://twitter.com/ravisaradev"
+                                        href="https://www.behance.net/Nipun_Ravisara"
                                         target="_blank"
                                     >
-                                        <i class="fab fa-twitter" />
+                                        <i class="fab fa-behance" />
                                     </a>
                                 </li>
+                                
                                 <li>
                                     <a
                                         rel="noopener noreferrer"
@@ -190,38 +186,36 @@ class App extends React.Component {
                                 <li>
                                     <a
                                         rel="noopener noreferrer"
-                                        href="https://github.com/RavisaraDev"
-                                        target="_blank"
-                                    >
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a
-                                        rel="noopener noreferrer"
                                         href="https://codepen.io/ravisaradev"
                                         target="_blank">
                                         <i class="fab fa-codepen"></i>
                                     </a>
                                 </li>
-
                                 <li>
                                     <a
                                         rel="noopener noreferrer"
-                                        href="https://www.behance.net/Nipun_Ravisara"
+                                        href="https://dribbble.com/nipun_ravisara"
                                         target="_blank"
                                     >
-                                        <i class="fab fa-behance" />
+                                        <i class="fab fa-dribbble" />
                                     </a>
                                 </li>
                                 <li>
                                     <a
                                         rel="noopener noreferrer"
-                                        href="https://dribbble.com/Ravisaradev"
+                                        href="https://www.instagram.com/nipunravisara/"
                                         target="_blank"
                                     >
-                                        <i class="fab fa-dribbble" />
+                                        <i class="fab fa-instagram" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        rel="noopener noreferrer"
+                                        href="https://twitter.com/nipunravisara"
+                                        target="_blank"
+                                    >
+                                        <i class="fab fa-twitter" />
                                     </a>
                                 </li>
                             </ul>
