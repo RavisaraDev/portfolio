@@ -5,7 +5,9 @@ html {
 
 body {
   background-color: rgb(28, 28, 32);
-  color: beige;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
